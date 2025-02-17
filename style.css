@@ -1,0 +1,88 @@
+.active {
+    background-color: #1B6B93 !important;
+}
+
+.container {
+    overflow-x: hidden;
+}
+
+.nav-link {
+    color: #4FC0D0;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #009990, #1B6B93, #4FC0D0);
+    background-size: 180% 180%;
+    animation: gradient-animation 15s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.home-custom-color h1 {
+    color: whitesmoke !important;
+}
+
+.home-custom-color p {
+    color: whitesmoke !important;
+}
+
+.green-color-btn {
+    background-color: #A2FF86;
+    color: #164B60 !important;
+    border-color: #164B60 !important;
+}
+
+.green-color-btn:hover {
+    background-color: #164B60;
+    color: whitesmoke !important;
+}
+
+.afla-mai-multe-btn:hover {
+    background-color: whitesmoke;
+    color: #164B60 !important;
+}
+
+.feature-icon-small {
+    width: 3rem;
+    height: 3rem;
+    background-color: #4FC0D0 !important;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.list-unstyled {
+    text-align: left;
+    padding-left: 30px;
+}
+
+.btn-primary:hover {
+    background-color: white !important;
+    color: #164B60 !important;
+}
+
+.btn-outline-primary:hover {
+    background-color: #164B60 !important;
+    color: whitesmoke !important;
+}
+
+.text-bg-primary {
+    background-color: #164B60 !important;
+}
+
+.border-primary {
+    border-color: #164B60 !important;
+}
